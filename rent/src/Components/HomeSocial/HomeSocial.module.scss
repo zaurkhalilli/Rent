@@ -1,0 +1,56 @@
+.social{
+    background-color: black;
+    .texts5{
+        margin-top: 100px;
+        h3{
+            color: white;
+            font-size: 2.5rem;
+            span{
+                color: #7e93fb;
+            }
+        }
+        p{
+            color: white;
+            font-size: 1.7rem;
+            font-weight: 630;
+        }
+        li{
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 550;
+        }
+        button{
+            background-color: #4561ec;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 7px;
+            width: 130px;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+    }
+    .background{
+        margin-top: 100px;
+        max-width: 584px;
+        max-height: 584px;
+        width: 150%;
+        height: 250%;
+        border-radius: 50%;
+        background-color: #7E93FB;
+        img{
+            margin-left: 100px;
+            width: 370px;
+        }
+        p{
+            background-color: #4561ec;
+            color: white;
+            font-weight: 640;
+            padding: 40px;
+            width: 500px;
+            font-size: 1.3rem;
+            font-weight: 640;
+            margin-left: 40px;
+        }
+    }
+}
