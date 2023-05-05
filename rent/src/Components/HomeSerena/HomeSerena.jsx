@@ -17,10 +17,7 @@ const HomeSerena = () => {
         <img src="https://solutions.rent.com/wp-content/uploads/2022/06/serena-yang-transparent.png" alt="" />
         </div>
        </div>
-       <br />
-       <br />
-       <br />
-       <br />
+    
 
     </div>
   )

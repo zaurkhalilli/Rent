@@ -1,0 +1,120 @@
+.connection{
+    background-color: black;
+    height: 1800px;
+    margin-top: 150px;
+    h2{
+        padding-top: 50px;
+        margin-left: 70px;
+        color: white;
+        font-size: 2.7rem;
+        max-width: 400px;
+    }
+    h5{
+        color: white;
+        padding-top: 20px;
+        max-width: 600px;
+        margin-left: 70px;
+    }
+    .dottedimg{
+        background: url("https://solutions.rent.com/wp-content/themes/rent/assets/images/overlays/bullet_overlay_549_202.png");
+        background-repeat: no-repeat;
+        img{
+            margin-left: 70px;
+            margin-top: 70px;
+        }
+    }
+    .texts7{
+        h3{
+            margin-top: 30px;
+            margin-left: 60px;
+            color: white;
+            font-size: 2.5rem;
+            span{
+                color: #7e93fb;
+            }
+        }
+        p{
+            max-width: 600px;
+            margin-left: 60px;
+            color: white;
+            font-size: 1.7rem;
+            font-weight: 630;
+        }
+        li{
+            margin-left: 60px;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 550;
+            max-width: 630px;
+        }
+        button{
+            margin-left: 60px;
+            background-color: #4561ec;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 7px;
+            width: 130px;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+    }
+    .connection2{
+        background-color: black;
+        .connectionimage{
+            background: url("https://solutions.rent.com/wp-content/themes/rent/assets/images/overlays/bullet_overlay_549_202.png");
+            background-repeat: no-repeat;
+            float: right;
+        }
+        img{
+            width: 600px;
+            margin-right: 50px;
+        }
+        h3{
+            margin-top: 30px;
+            color: white;
+            font-size: 2.5rem;
+            span{
+                color: #7e93fb;
+            }
+        }
+        p{
+            padding-top: 10px;
+            max-width: 600px;
+            text-align: start;
+            color: white;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        h5{
+            margin-top: 20px;
+            color: white;
+            max-width: 400px;
+            font-weight: 600;
+        }
+        li{
+            margin-top: 10px;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 500;
+            text-align: start;
+            max-width: 400px;
+        }
+        button{
+            padding: 15px;
+            color: #ffffff;
+            background-color: #4561ec;
+            font-weight: 620;
+            border: none;
+            width: 150px;
+            margin-top: 20px;
+            border-radius: 7px;
+        }
+       
+    }
+    hr{
+        width: 90%;
+        border: 2px solid #494949 ;
+        margin: 0 auto;
+    }
+}
