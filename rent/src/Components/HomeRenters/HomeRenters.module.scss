@@ -1,0 +1,73 @@
+.renters{
+    margin-top: 150px;
+    .texts2{
+        margin-left: -50px;
+        h2{
+            font-family: "GT-Flexa",Helvetica,Arial,sans-serif;
+            font-size: 3.2rem;
+            font-weight: 680;
+            color: black;
+        }
+        button{
+            background-color: #4561ec;
+            color: white;
+            padding: 15px;
+            border-radius: 7px;
+            width: 130px;
+            border: none;
+            font-weight: 620;
+        }
+        .sites{
+            margin-top: 5px0;
+            img{
+                width: 120px;
+            }
+        }
+    }
+    .background{
+    img{
+    width: 80%;
+    position: relative;
+    height: 204px;
+    float: right;
+    margin-top: -50px;
+    margin-right: -100px;
+}
+    }
+    .image{
+        position: relative;
+        p{
+            align-items: start;
+            font-weight: 630;
+            font-size: 1.3rem;
+            margin-top: -20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: white;
+            background-color: #4561ec;
+            width: 100%;
+            padding: 50px;
+        }
+        h5{
+            position: absolute;
+            background-color: #7e93fb;
+            width: 80%;
+            padding: 40px;
+            margin-top: -60px;
+        }
+        span{
+            position: absolute;
+            max-width: 300px;
+            color: black;
+            background-color: #f4f6ff;
+            margin-top: 20px;
+            padding: 40px;
+            font-weight: 620;
+        }
+        img{
+            margin-top: -100px;
+            width: 100%;
+        }
+    }
+}
