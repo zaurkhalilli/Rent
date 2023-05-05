@@ -1,0 +1,73 @@
+.resident{
+    margin-top: 150px;
+    background-color: black;
+    h2{
+        color: white;
+        margin-top: 50px;
+        font-size: 4rem;
+        font-weight: 650;
+    }
+    span{
+        color: white;
+        margin-bottom: 130px;
+    }
+    .texts4{
+        h3{
+            color: white;
+            font-size: 2.5rem;
+            span{
+                color: #4561ec;
+            }
+        }
+        p{
+            color: white;
+            font-size: 1.7rem;
+            font-weight: 630;
+        }
+        li{
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 550;
+        }
+        button{
+            background-color: #4561ec;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 7px;
+            width: 120px;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+    }
+    .image3{
+        overflow: hidden;
+        background: url("https://solutions.rent.com/wp-content/themes/rent/assets/images/overlays/overlay_service_1.png");
+        background-repeat: no-repeat;
+        img{
+            width: 450px;
+            margin: 20px -50px -300px 80px;
+            position: relative;
+        }
+        p{
+            position: absolute;
+            font-size: 1.4rem;
+            font-weight: 630;
+            margin-top: -210px;
+            background-color: #4561ec;
+            width: 30%;
+            color: white;
+            padding-bottom: 110px;
+        }
+        h5{
+            position: relative;
+            background-color: white;
+            color: black;
+            padding-bottom: 70px;
+            font-size: 1.7rem;
+            margin-top: -130px;
+            width: 260px;
+            font-weight: 640;
+        }
+    }
+}
