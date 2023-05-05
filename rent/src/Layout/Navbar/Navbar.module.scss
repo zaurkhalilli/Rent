@@ -1,3 +1,99 @@
 nav{
     background-color: black;
+    .container{
+        background-color: #151519;
+        .left{
+            display: flex;
+            margin-left: 90px;
+        }
+        p{
+            color: #7386d7;
+        }
+        h5{
+            color: #e4e4d8;
+            font-size: 1rem;
+        }
+        span{
+            padding-left: 5px;
+            padding-right: 5px;
+            color: #3b3c42;
+        }
+    }
+    .right{
+        background-color: #151519;
+        float: right;
+        margin-right: 90px;
+        
+        a{
+            text-decoration: none;
+            font-weight: 550;
+            font-size: .9rem;
+            color: #3c72e3;
+        }
+    }
+    .logo{
+        img{
+            width: 70%;
+            height: 100%;
+            object-fit: cover;
+            margin-top: 10px;
+        }
+    }
+    .li{
+        ul{
+            display: flex;
+            margin-top: 20px;
+        }
+        li{
+            padding-left: 20px;
+            color: #4d83fb;
+            list-style: none;
+        }
+    }
+    .login{
+        align-items: center;
+        margin-top: 20px;
+        a{
+            text-decoration: none;
+        }
+    }
+    .button{
+        button{
+            background-color: #4561ec;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+    }
+
+    .dropdown_hover{
+        position: relative;
+        display: inline-block;
+        button{
+            background: none;
+            color: #4561ec ;
+            border: none;
+            font-weight: 640;
+        }
+    }
+    .dropdown_content{
+        display: none;
+        position: relative;
+        z-index: 1;
+        .solution_hover{
+            p{
+                color: black;
+            }
+        }
+    }
+    .solution_hover :hover .dropdown-content{
+        width: 400px;
+      }
+      
+      .dropdown-hover:hover .dropdown-content {
+        display: block;
+        z-index: 1;
+        position: absolute;}
 }
