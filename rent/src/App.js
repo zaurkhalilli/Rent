@@ -5,6 +5,7 @@ import HomeRenters from './Components/HomeRenters/HomeRenters'
 import HomeResident from './Components/HomeResident/HomeResident'
 import HomeSocial from './Components/HomeSocial/HomeSocial'
 import HomeSearch from './Components/HomeSearch/HomeSearch'
+import HomeSerena from './Components/HomeSerena/HomeSerena'
 const App = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const App = () => {
       <HomeResident/>
       <HomeSocial/>
       <HomeSearch/>
+      <HomeSerena/>
     </div>
   )
 }

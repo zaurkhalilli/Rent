@@ -1,0 +1,63 @@
+.serena{
+    margin-top: 100px;
+    h2{
+        color: black;
+        font-size: 3rem;
+        text-align: center;
+    }
+    h5{
+        color: black;
+        margin: 0 auto;
+        max-width: 550px;
+        font-weight: 400;
+    }
+    .serenaimage{
+        margin-top: 50px;
+        text-align: center;
+        background: url("https://solutions.rent.com/wp-content/themes/rent/assets/images/overlays/bullet_overlay_760_430.png");
+        background-repeat: no-repeat;
+        background-position: center;
+       .bluebg{
+        background-color: #4561ec;
+        width: 50%;
+        height: 500px;
+        margin: 0 auto;
+        img{
+            width: 300px;
+            margin-left: 140px;
+            background-color: #4561ec;
+            margin-top: -123px;
+        }
+        p{
+            padding-top: 30px;
+            max-width: 400px;
+            text-align: start;
+            margin-left: 40px;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 650;
+        }
+        h5{
+            margin-top: 20px;
+            color: white;
+            max-width: 400px;
+            margin-left: 40px;
+            font-weight: 600;
+        }
+        li{
+            margin-top: 10px;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 500;
+            text-align: start;
+            margin-left: 28px;
+        }
+        button{
+            padding: 15px;
+            color: #4561ec;
+            font-weight: 620;
+            border: none;
+        }
+       }
+    }
+}
