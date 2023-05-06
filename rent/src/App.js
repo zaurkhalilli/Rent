@@ -11,6 +11,8 @@ import HomeTarget from './Components/HomeTarget/HomeTarget'
 import HomeFrequently from './Components/HomeFrequently/HomeFrequently'
 import HomeRedfin from './Components/HomeRedfin/HomeRedfin'
 import HomeNews from './Components/HomeNews/HomeNews'
+import HomeDiscover from './Components/HomeDiscover/HomeDiscover'
+import Footer from './Layout/Footer/Footer'
 const App = () => {
   return (
     <div>
@@ -26,6 +28,8 @@ const App = () => {
       <HomeFrequently/>
       <HomeRedfin/>
       <HomeNews/>
+      <HomeDiscover/>
+      <Footer/>
     </div>
   )
 }
