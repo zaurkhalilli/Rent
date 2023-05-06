@@ -9,6 +9,7 @@ import HomeSerena from './Components/HomeSerena/HomeSerena'
 import HomeConnection from './Components/HomeConnection/HomeConnection'
 import HomeTarget from './Components/HomeTarget/HomeTarget'
 import HomeFrequently from './Components/HomeFrequently/HomeFrequently'
+import HomeRedfin from './Components/HomeRedfin/HomeRedfin'
 const App = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const App = () => {
       <HomeConnection/>
       <HomeTarget/>
       <HomeFrequently/>
+      <HomeRedfin/>
     </div>
   )
 }
