@@ -10,6 +10,7 @@ import HomeConnection from './Components/HomeConnection/HomeConnection'
 import HomeTarget from './Components/HomeTarget/HomeTarget'
 import HomeFrequently from './Components/HomeFrequently/HomeFrequently'
 import HomeRedfin from './Components/HomeRedfin/HomeRedfin'
+import HomeNews from './Components/HomeNews/HomeNews'
 const App = () => {
   return (
     <div>
@@ -24,6 +25,7 @@ const App = () => {
       <HomeTarget/>
       <HomeFrequently/>
       <HomeRedfin/>
+      <HomeNews/>
     </div>
   )
 }
