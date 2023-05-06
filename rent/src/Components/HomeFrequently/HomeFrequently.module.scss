@@ -1,0 +1,36 @@
+.frequently{
+    .h2{
+       h2{
+        color: black;
+        font-size: 3.5rem;
+        max-width: 200px;
+        margin-top: 100px;
+       }
+    }
+    h5{
+        color: black;
+    }
+    .accordion_item{
+        border: none;
+    }
+    .accordion_button{
+        border: none;
+        background: none;
+        font-size: 1.2rem;
+        text-align: start;
+        font-weight: 550;
+        max-width: 450px;
+    }
+    .explorebtn{
+        button{
+            margin-top: 20px;
+            border: none;
+            border-radius: 7px;
+            padding: 13px;
+            width: 150px;
+            font-weight: 620;
+            background-color: #4561ec;
+            color: white;
+        }
+    }
+}

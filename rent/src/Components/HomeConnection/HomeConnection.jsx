@@ -28,12 +28,6 @@ const HomeConnection = () => {
                 <button>Learn more</button>
     </div>
 </div>
-<hr />
-<br />
-<br />
-<br />
-<br />
-<br />
     </div>
   )
 }

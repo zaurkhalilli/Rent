@@ -1,0 +1,50 @@
+.target{
+    background-color: black;
+    hr{
+        width: 90%;
+        border: 2px solid #5c5c5c ;
+        margin: 0 auto;
+    }
+    h2{
+        color: white;
+        margin-top: 100px;
+        font-size: 3.5rem;
+        max-width: 400px;
+    }
+    h5{
+        color: white;
+        max-width: 470px;
+    }
+    img{
+        margin-top: 100px;
+        width: 100%;
+    }
+    h3{
+        color: white;
+        font-size: 2.5rem;
+        span{
+            color: #7e93fb;
+        }
+    }
+    p{
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 630;
+    }
+    li{
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 550;
+    }
+    button{
+        background-color: #4561ec;
+        color: white;
+        padding: 15px;
+        border: none;
+        border-radius: 7px;
+        width: 130px;
+        margin-top: 20px;
+        font-weight: 600;
+        margin-bottom: 80px;
+    }
+}

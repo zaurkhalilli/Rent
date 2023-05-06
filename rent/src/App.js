@@ -7,7 +7,8 @@ import HomeSocial from './Components/HomeSocial/HomeSocial'
 import HomeSearch from './Components/HomeSearch/HomeSearch'
 import HomeSerena from './Components/HomeSerena/HomeSerena'
 import HomeConnection from './Components/HomeConnection/HomeConnection'
-import HomeConnection2 from './Components/HomeConnection2/HomeConnection2'
+import HomeTarget from './Components/HomeTarget/HomeTarget'
+import HomeFrequently from './Components/HomeFrequently/HomeFrequently'
 const App = () => {
   return (
     <div>
@@ -19,7 +20,8 @@ const App = () => {
       <HomeSearch/>
       <HomeSerena/>
       <HomeConnection/>
-      <HomeConnection2/>
+      <HomeTarget/>
+      <HomeFrequently/>
     </div>
   )
 }
