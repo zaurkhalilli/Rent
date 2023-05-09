@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from "../Home/Home.module.scss";
+import styled from "../Home/HomeApartments.module.scss";
 const Home = () => {
   return (
     <div className={styled.part_1}>

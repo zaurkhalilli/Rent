@@ -32,10 +32,10 @@ const Navbar = () => {
             </div>
           </div>
           <div className="col-xl-6">
+          <div className={styled.navlist}>
           <a href="">Home</a>
             <div className={styled.dropdown_hover}>
-             
-              <button>Solution</button>
+                <a href="">Solution <IoIosArrowDown/></a>             
               <div className={styled.dropdown_content}>
                 <h2>Solutions <IoIosArrowDown/> </h2> 
                 <div className="col-xl-5">
@@ -51,9 +51,13 @@ const Navbar = () => {
                 <div className="col-xl-7"></div>
               </div>
             </div>
+                <a href=""> Company <IoIosArrowDown/></a>
+                <a href=""> Blog</a>
+                <a href=""> Resources <IoIosArrowDown/></a>
            <div className={styled.li}>
           
            </div>
+          </div>
           </div>
           <div className="col-xl-2">
            <div className={styled.login}>

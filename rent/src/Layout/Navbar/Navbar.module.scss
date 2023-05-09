@@ -1,6 +1,17 @@
 nav{
     
     background-color: black;
+  
+    .navlist{
+        margin-top: 20px;
+        margin-left: 40px;
+        a{
+            padding-left: 20px;
+            color: #7386d7;
+            text-decoration: none;
+            font-weight: 640;
+        }
+    }
     .container{
         background-color: #151519;
         .left{
@@ -10,6 +21,7 @@ nav{
         p{
             color: #7386d7;
         }
+       
         h5{
             color: #e4e4d8;
             font-size: 1rem;
@@ -56,6 +68,8 @@ nav{
         margin-top: 20px;
         a{
             text-decoration: none;
+            color: #7386d7;
+            font-weight: 640;
         }
     }
     .button{

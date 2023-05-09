@@ -1,35 +1,23 @@
 import React from 'react'
-import Navbar from './Layout/Navbar/Navbar'
-import Home from './Pages/Home/Home'
-import HomeRenters from './Components/HomeRenters/HomeRenters'
-import HomeResident from './Components/HomeResident/HomeResident'
-import HomeSocial from './Components/HomeSocial/HomeSocial'
-import HomeSearch from './Components/HomeSearch/HomeSearch'
-import HomeSerena from './Components/HomeSerena/HomeSerena'
-import HomeConnection from './Components/HomeConnection/HomeConnection'
-import HomeTarget from './Components/HomeTarget/HomeTarget'
-import HomeFrequently from './Components/HomeFrequently/HomeFrequently'
-import HomeRedfin from './Components/HomeRedfin/HomeRedfin'
-import HomeNews from './Components/HomeNews/HomeNews'
-import HomeDiscover from './Components/HomeDiscover/HomeDiscover'
-import Footer from './Layout/Footer/Footer'
+import Home from "./Pages/Home/Home"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import About from "./Pages/About/About";
+import Blog from "./Pages/Blog/Blog";
+import Layout from "./Layout/Layout";
+import BlogDetail from "./Pages/BlogDetail/Detail";
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <Home/>
-      <HomeRenters/>
-      <HomeResident/>
-      <HomeSocial/>
-      <HomeSearch/>
-      <HomeSerena/>
-      <HomeConnection/>
-      <HomeTarget/>
-      <HomeFrequently/>
-      <HomeRedfin/>
-      <HomeNews/>
-      <HomeDiscover/>
-      <Footer/>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route index path='/' element={<Home/>} />
+          <Route index path='/about' element={<About />} />
+          <Route index path='/blog' element={<Blog />} />
+          <Route index path='/blogdetail' element={<BlogDetail />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
     </div>
   )
 }
