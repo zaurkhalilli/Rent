@@ -1,0 +1,49 @@
+.value{
+    padding-top: 100px;
+    background-color: black;
+    hr{
+        width: 90%;
+        border: 2px solid #5c5c5c ;
+        margin: 0 auto;
+    }
+    .valuetxt{
+        margin-left: 100px;
+        display: flex;
+        margin-top: 80px;
+        h2{
+            color: white;
+            font-size: 4.5rem;
+        }
+        h4{
+            margin-top: 20px;
+            margin-left: 70px;
+            color: #fefefe;
+            max-width: 590px;
+            font-size: 1.2rem;
+        }
+    }
+    .valueimg{
+        margin-top: 40px;
+        background-color: #4561ec;
+        width: 100%;
+        img{
+            margin-left: 80px;
+            margin-top: 50px;
+        }
+        .gift{
+            h5{
+                margin-top: 40px;
+            }
+        }
+        h5{
+            color: white;
+            max-width: 200px;
+            font-size: 1.6rem;
+            margin-left: 30px;
+            text-align: center;
+            margin-top: 10px;
+            padding-bottom: 30px;
+            font-weight: 640;
+        }
+    }
+}
