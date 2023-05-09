@@ -34,24 +34,38 @@ const Navbar = () => {
           <div className="col-xl-6">
           <div className={styled.navlist}>
           <a href="">Home</a>
-            <div className={styled.dropdown_hover}>
-                <a href="">Solution <IoIosArrowDown/></a>             
-              <div className={styled.dropdown_content}>
-                <h2>Solutions <IoIosArrowDown/> </h2> 
-                <div className="col-xl-5">
-                  <div className="solution_hover">
-                    <p>Rent <a href="">Marketplace.</a></p>
-                    <p>Rent <a href="">Social.</a></p>
-                    <p>Rent <a href="">Engage.</a></p>
-                    <p>Rent <a href="">Search.</a></p>
-                    <p>Rent <a href="">Target.</a></p>
-                    <p>Rent <a href="">Rep.</a></p>
-                  </div>
+          <div class={styled.dropdown}>
+          <button class={styled.dropbtn}>Solutions <IoIosArrowDown/></button>
+          <div class={styled.dropdown_content2}>
+          <div className="container">
+            <div className="row">
+              <h2>Solutions</h2>
+              <div className="col-xl-6">
+                <div className={styled.rentflex}>
+                  <h4>Rent <span>Marketplace.</span></h4>
+                  <h4>Rent <span>Social.</span> </h4>
+                  <h4>Rent <span>Engage.</span> </h4>
+                  <h4>Rent <span>Search.</span></h4>
+                  <h4>Rent <span>Target.</span></h4>
+                  <h4>Rent <span>Rep.</span></h4>
                 </div>
-                <div className="col-xl-7"></div>
               </div>
+              <div className="col-xl-6"></div>
             </div>
-                <a href=""> Company <IoIosArrowDown/></a>
+          </div>
+          </div>
+          </div>
+           
+            <div class={styled.dropdown}>
+          <button class={styled.dropbtn}>Company <IoIosArrowDown/></button>
+          <div class={styled.dropdown_content}>
+            <a href="">About</a>
+            <a href="#">News</a>
+            <a href="#">Careers</a>
+            <a href="#">FAQ</a>
+          </div>
+          </div>
+
                 <a href=""> Blog</a>
                 <a href=""> Resources <IoIosArrowDown/></a>
            <div className={styled.li}>
