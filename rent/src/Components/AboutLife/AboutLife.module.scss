@@ -1,0 +1,26 @@
+.life{
+    background-color: black;
+    padding-top: 100px;
+    h2{
+        color: white;
+        font-size: 3.3rem;
+        margin-left: 110px;
+        padding-bottom: 40px;
+    }
+ .lifeimg{
+    background: url("https://solutions.rent.com/wp-content/themes/rent/assets/images/overlays/bullet_overlay_723_568.png");
+    background-position-y: 2200px;
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+    background-position-x: 40px;
+    span{
+        color: #4561ec;
+        font-size: 3.3rem;
+    }
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 90%;
+    }
+ }
+}
