@@ -1,0 +1,116 @@
+.blogrent{
+    background-color: black;
+    padding-top: 80px;
+    img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+    }
+    h2{
+        color: white;
+        font-size: 4.2rem;
+    }
+    span{
+        color: #7e93fb;
+    }
+    h5{
+        font-size: 1.2rem;
+        font-weight: 450;
+        color: white;
+        max-width: 500px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    button{
+        color: white;
+        background-color: #4561ec;
+        border: none;
+        padding: 7px;
+        border-radius: 4px;
+        width: 130px;
+        font-weight: 640;
+    }
+    h4{
+        color: white;
+        font-size: 1.9rem;
+        padding-top: 30px;
+        font-weight: 640;
+    }
+    input{
+        margin-top: 30px;
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        padding: 7px;
+        width: 80%;
+        border-radius: 4px;
+    }
+    .bottomrent{
+        padding-bottom: 50px;
+        button{
+            background-color: black;
+            border: 1px solid #4561ec;
+            color: #7e93fb;
+            padding: 7px;
+            font-size: 1.1rem;
+        }
+    }
+    .bottomside{
+        background-color: white;
+        padding-top: 20px;
+        span{
+            color: black;
+            font-weight: 640;
+            margin-left: 40px;
+            font-size: .9rem;
+            a{
+                color: #7e93fb;
+            }
+        }
+        .links{
+            margin-left: 40px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            max-width: 400px;
+            a{
+                color: black;
+                text-decoration: none;
+                font-size: 1.9rem;
+                font-weight: 650;
+            }
+        }
+        .profileimg{
+            display: flex;
+            img{
+                width: 40px;
+                margin-left: 40px;
+            }
+            span{
+                margin-left: 5px;
+                margin-top: 9px;
+            }
+            p{
+                color: #6f61ec;
+                font-weight: 640;
+                margin-left: 5px;
+                text-align: center;
+                font-size: .9rem;
+            }
+        }
+        .buttons{
+            margin-left: 40px;
+            display: flex;
+            flex-direction: column;
+            button{
+                margin-top: -20px;
+                width: 180px;
+                font-size: .9rem;
+                background-color: #e7ebff;
+                color: #4570f0;
+                font-weight: 640;
+                padding: 5px;
+            }
+        }
+    }
+
+}
