@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "../Navbar/Navbar.module.scss";
+import { Link } from 'react-router-dom';
 import {BsHeadphones} from "react-icons/bs";
 import {IoIosArrowDown} from "react-icons/io";
 const Navbar = () => {
@@ -33,7 +34,7 @@ const Navbar = () => {
           </div>
           <div className="col-xl-6">
           <div className={styled.navlist}>
-          <a href="">Home</a>
+          <a href=""> <Link to="/">Home</Link></a>
           <div class={styled.dropdown}>
           <button class={styled.dropbtn}>Solutions <IoIosArrowDown/></button>
           <div class={styled.dropdown_content2}>
@@ -59,14 +60,14 @@ const Navbar = () => {
             <div class={styled.dropdown}>
           <button class={styled.dropbtn}>Company <IoIosArrowDown/></button>
           <div class={styled.dropdown_content}>
-            <a href="">About</a>
+            <Link to="/about"> About </Link>  
             <a href="#">News</a>
             <a href="#">Careers</a>
             <a href="#">FAQ</a>
           </div>
           </div>
 
-                <a href=""> Blog</a>
+                <Link to="/blog">Blog</Link>
                 <a href=""> Resources <IoIosArrowDown/></a>
            <div className={styled.li}>
           

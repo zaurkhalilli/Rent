@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from "../BlogCategories/BlogCategories.module.scss"
+import { Link } from 'react-router-dom'
 import {IoIosArrowDown} from "react-icons/io"
 const BlogCategories = () => {
   return (
@@ -25,7 +26,7 @@ const BlogCategories = () => {
       <div className="container">
         <div className="row">
             <div className="col-xl-5">
-                <img src="	https://solutions.rent.com/wp-content/uploads/2023/05/Copy-of-LinkedIn-AIM-Speaker-Panel-2.jpg" alt="" />
+               <Link to="/blogdetail">  <img src="https://solutions.rent.com/wp-content/uploads/2023/05/Copy-of-LinkedIn-AIM-Speaker-Panel-2.jpg" alt="" /> </Link>
             </div>
             <div className="col-xl-7">
             <div className={styled.bottomside}>
