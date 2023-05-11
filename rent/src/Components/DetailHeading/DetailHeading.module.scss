@@ -1,0 +1,41 @@
+.detail{
+    background-color: black;
+    padding-top: 70px;
+    img{
+        width: 100%;
+    }
+    .detailbtn{
+        padding-top: 30px;
+        button{
+            color: white;
+            background-color: #17181c;
+            border: 1px solid #2c2d33
+        }
+    }
+   .righttxt{
+    width: 100%;
+    margin-left: -24px;
+    height: 364px;
+    background-color: #17181c;
+    span{
+        padding-top: 30px;
+        margin-right: 30px;
+        color: white;
+        float: right;
+    }
+    h2{
+        color: white;
+        font-size: 2.7rem;
+        margin-left: 40px;
+        max-width: 450px;
+        padding-top: 90px;
+    }
+   }
+   p{
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    margin-right: 20px;
+    float: right;
+   }
+}
